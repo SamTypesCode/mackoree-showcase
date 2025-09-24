@@ -60,10 +60,12 @@ export default function FAQ() {
             {FAQs.map((faq, i) => (
               <AccordionItem key={i} value={`faq-${i}`} className="py-2">
                 <AccordionTrigger className="w-full text-left text-zinc-950 flex justify-between items-center py-3">
-                  <span className="text-xl">{faq.question}</span>
+                  <span className="text-lg md:text-xl font-medium">
+                    {faq.question}
+                  </span>
                   <div className="w-[30px] h-[30px] rounded-full bg-neutral-200 flex items-center justify-center">
-                    <Plus className="w-4 h-4 group-data-[state=open]:hidden" />
-                    <Minus className="w-4 h-4 hidden group-data-[state=open]:block" />
+                    <Plus className="w-4 h-4 group-data-expanded:hidden" />
+                    <Minus className="w-4 h-4 hidden group-data-expanded:block" />
                   </div>
                 </AccordionTrigger>
                 <AccordionContent>

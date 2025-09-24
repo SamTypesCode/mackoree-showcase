@@ -14,7 +14,7 @@ interface PromoBarMessageType {
 
 // const PromoBarMessage: PromoBarMessageType | null = null;
 const PromoBarMessage: PromoBarMessageType | null = {
-  message: "Sign up for exclusive access and save 50% on your first order ",
+  message: "We now also make video games! Contact us now!",
 };
 
 export default function Home() {
