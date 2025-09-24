@@ -7,11 +7,11 @@ interface PromoBarProps {
 
 export default function Promo({ message, className }: PromoBarProps) {
   const defaultClasses =
-    "fixed top-0 left-0 w-full min-h-10 bg-black text-white text-[0.72rem] font-medium z-50 flex justify-center items-center py-2";
+    "w-full min-h-10 bg-black text-white text-[0.72rem] font-medium z-50 flex justify-center items-center py-2.5";
 
   return (
     <aside id="promo" className={cn(defaultClasses, className)}>
-      <div className="px-5">{message}</div>
+      <div className="px-2.5">{message}</div>
     </aside>
   );
 }
