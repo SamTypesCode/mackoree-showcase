@@ -12,7 +12,10 @@ interface PromoBarMessageType {
   className?: string;
 }
 
-const PromoBarMessage: PromoBarMessageType | null = null;
+// const PromoBarMessage: PromoBarMessageType | null = null;
+const PromoBarMessage: PromoBarMessageType | null = {
+  message: "Sign up for exclusive access and save 50% on your first order ",
+};
 
 export default function Home() {
   return (
