@@ -5,6 +5,7 @@ import FAQ from "@/components/home/FAQ";
 import Hero from "@/components/home/Hero";
 import Partners from "@/components/home/Partners";
 import Projects from "@/components/home/Projects";
+import Testimonials from "@/components/home/Testimonials";
 import Promo from "@/components/Promo";
 
 interface PromoBarMessageType {
@@ -14,7 +15,7 @@ interface PromoBarMessageType {
 
 // const PromoBarMessage: PromoBarMessageType | null = null;
 const PromoBarMessage: PromoBarMessageType | null = {
-  message: "We now also make video games! Contact us now!",
+  message: "Our new brand website showcasing our work is live now!",
 };
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <About />
         <Partners />
         <Projects />
+        <Testimonials />
         <Contact />
         <FAQ />
       </main>

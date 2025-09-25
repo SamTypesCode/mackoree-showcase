@@ -16,8 +16,7 @@ export default function Contact() {
     <section id="contact-us" className="w-full py-9 max-md:py-10">
       <div className="w-full bg-black py-16 md:py-24 px-5 md:px-12">
         <h2 className="mx-auto mb-12 max-w-[550px] text-center text-xl md:text-2xl font-medium text-white leading-tight tracking-tight">
-          Get high quality 3D and animation work done today, contact us by
-          entering your email address now!
+          Get high quality 3D and animation work done today, contact us now!
         </h2>
 
         <form

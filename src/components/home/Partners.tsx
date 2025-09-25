@@ -1,4 +1,5 @@
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
+import Image from "next/image";
 
 interface PartnerType {
   name?: string | null;
@@ -46,8 +47,10 @@ export default function Partners() {
               key={index}
               className="w-[140px] h-[140px] flex items-center justify-center"
             >
-              <img
-                src={partner.image_path}
+              <Image
+                src={`/${partner.image_path}`}
+                width={140}
+                height={140}
                 alt={`${partner.name} Logo`}
                 className="h-auto w-full object-contain"
                 loading="lazy"
