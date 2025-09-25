@@ -35,15 +35,15 @@ export default function Quality() {
             <ImageComparison
               className="w-full aspect-[4/3] md:aspect-square lg:aspect-[5/4] rounded-lg border border-zinc-200 dark:border-zinc-800 touch-none"
               enableHover
-              springOptions={{ bounce: 0.3 }}
+              springOptions={{ bounce: 0.1 }}
             >
               <ImageComparisonImage
-                src="/after.jpg"
+                src="/rolex-render.jpg"
                 alt="3D render after refinement"
                 position="left"
               />
               <ImageComparisonImage
-                src="/before.jpg"
+                src="/rolex-gray.jpg"
                 alt="3D render before refinement"
                 position="right"
               />

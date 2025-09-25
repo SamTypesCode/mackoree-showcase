@@ -29,16 +29,16 @@ export default function Home() {
         />
       )}
       <main>
-        <Hero />
-        <About />
+        <Hero /> {/* TODO */}
+        <About /> {/* TODO */}
         <Quality />
         <Partners />
         <Projects />
-        <Testimonials />
+        <Testimonials /> {/* TODO */}
         <Contact />
         <FAQ />
       </main>
-      <Footer />
+      <Footer /> {/* TODO */}
     </>
   );
 }
