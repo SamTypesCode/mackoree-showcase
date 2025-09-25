@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import About from "@/components/home/About";
+import Quality from "@/components/home/Quality";
 import Contact from "@/components/home/Contact";
 import FAQ from "@/components/home/FAQ";
 import Hero from "@/components/home/Hero";
@@ -7,6 +7,7 @@ import Partners from "@/components/home/Partners";
 import Projects from "@/components/home/Projects";
 import Testimonials from "@/components/home/Testimonials";
 import Promo from "@/components/Promo";
+import About from "@/components/home/About";
 
 interface PromoBarMessageType {
   message: string;
@@ -30,6 +31,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Quality />
         <Partners />
         <Projects />
         <Testimonials />

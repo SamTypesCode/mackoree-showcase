@@ -13,7 +13,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact-us" className="w-full py-9 max-md:py-10">
+    <section id="contact-us" className="w-full pt-16 pb-24 max-md:py-16">
       <div className="w-full bg-black py-16 md:py-24 px-5 md:px-12">
         <h2 className="mx-auto mb-12 max-w-[550px] text-center text-xl md:text-2xl font-medium text-white leading-tight tracking-tight">
           Get high quality 3D and animation work done today, contact us now!
