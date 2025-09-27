@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import Quality from "@/components/home/Quality";
 import Contact from "@/components/home/Contact";
 import FAQ from "@/components/home/FAQ";
 import Hero from "@/components/home/Hero";
@@ -31,7 +30,6 @@ export default function Home() {
       <main>
         <Hero /> {/* TODO */}
         <About /> {/* TODO */}
-        <Quality />
         <Partners />
         <Projects />
         <Testimonials /> {/* TODO */}
