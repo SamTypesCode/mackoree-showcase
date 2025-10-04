@@ -5,12 +5,33 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 export default function Contact() {
+  const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
-  };
+    setError(false);
+
+    try {
+      const res = await fetch("/api/contact-us", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) throw new Error(data.error || "Failed to send message");
+
+      setSubmitted(true);
+      setEmail("");
+    } catch (err: any) {
+      console.error(err);
+      setError(true);
+      setSubmitted(true);
+    }
+  }
 
   return (
     <section id="contact-us" className="w-full pt-16 pb-24 max-md:py-16">
@@ -27,6 +48,8 @@ export default function Contact() {
             type="email"
             required
             placeholder="E-MAIL"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="w-full rounded-full !bg-neutral-900 text-white px-6 py-[21px] text-[0.73rem] font-medium placeholder:text-[0.73rem] placeholder:text-white border !border-white focus-visible:outline-none focus-visible:ring-0"
           />
           <Button
@@ -39,7 +62,9 @@ export default function Contact() {
 
         {submitted && (
           <p className="text-white mt-4 text-center tracking-tight">
-            Thanks! We’ll get back to you soon.
+            {error
+              ? "Failed to submit your email. Please try again."
+              : "Thanks! We’ll get back to you soon."}
           </p>
         )}
       </div>
