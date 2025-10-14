@@ -32,7 +32,7 @@ export default function Home() {
         <About /> {/* TODO */}
         <Partners />
         <Projects />
-        <Testimonials /> {/* TODO */}
+        <Testimonials />
         <Contact />
         <FAQ />
       </main>

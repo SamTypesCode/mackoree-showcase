@@ -35,6 +35,10 @@ const PartnersList: PartnerType[] = [
     name: "Rolex",
     image_path: "rolex-logo.png",
   },
+  {
+    name: "Fpgg",
+    image_path: "fogg-logo.png",
+  },
 ];
 
 export default function Partners() {

@@ -81,20 +81,16 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground box-border relative flex flex-col min-h-screen overflow-x-hidden;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
+    box-sizing: border-box;
   }
   html {
     scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground relative flex flex-col min-h-screen;
+  }
+  html,
+  body {
+    overflow-x: hidden;
   }
 }

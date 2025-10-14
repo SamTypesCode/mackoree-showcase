@@ -1,7 +1,6 @@
 import {
   Carousel,
   CarouselContent,
-  CarouselNavigation,
   CarouselIndicator,
   CarouselItem,
 } from "@/components/ui/carousel";
@@ -132,7 +131,6 @@ export default function Projects() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselNavigation alwaysShow />
             <CarouselIndicator />
           </Carousel>
         </div>
