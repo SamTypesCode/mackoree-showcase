@@ -14,19 +14,21 @@ interface TestimonialType {
 
 const TestimonialsList: TestimonialType[] = [
   {
-    name: "Alice Johnson",
-    avatarUrl: "",
-    content: "The 3D models brought our vision to life flawlessly.",
+    name: "Loreal",
+    avatarUrl: "loreal-logo-small.png",
+    content:
+      "Their precision and eye for detail brought our product's visuals to a truly global standard.",
   },
   {
-    name: "Michael Lee",
-    avatarUrl: "",
-    content: "Incredible animation quality, delivered on time!",
+    name: "Shantanu Deshpande",
+    avatarUrl: "/shantanu-deshpande.jpg",
+    content: "Bold, elegant, and perfectly aligned with our grooming identity.",
   },
   {
-    name: "Sophie Kim",
-    avatarUrl: "",
-    content: "Creative, professional, and exceeded our expectations.",
+    name: "Sumeet Narang",
+    avatarUrl: "/sumeet-narang.webp",
+    content:
+      "High-performance visuals that captured the adrenaline and precision of our bikes.",
   },
 ];
 
@@ -47,11 +49,12 @@ export default function Testimonials() {
                   </p>
 
                   <div className="flex items-center space-x-4 mt-4">
-                    <Avatar className="h-14 w-14">
+                    <Avatar className="h-14 w-14 overflow-hidden rounded-full bg-white">
                       {testimonial.avatarUrl ? (
                         <AvatarImage
                           src={testimonial.avatarUrl}
                           alt={testimonial.name}
+                          className="object-cover object-center w-full h-full"
                         />
                       ) : (
                         <AvatarFallback>{testimonial.name[0]}</AvatarFallback>

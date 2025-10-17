@@ -13,10 +13,10 @@ interface PromoBarMessageType {
   className?: string;
 }
 
-// const PromoBarMessage: PromoBarMessageType | null = null;
-const PromoBarMessage: PromoBarMessageType | null = {
-  message: "Our new brand website showcasing our work is live now!",
-};
+const promobar_message = process.env.PROMOBAR_MESSAGE ?? "";
+
+const PromoBarMessage: PromoBarMessageType | null =
+  promobar_message.trim() === "" ? null : { message: promobar_message };
 
 export default function Home() {
   return (
