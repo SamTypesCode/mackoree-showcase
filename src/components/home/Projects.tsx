@@ -4,6 +4,7 @@ import {
   CarouselIndicator,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { Button } from "../ui/button";
 
 interface ProjectType {
   client: string;
@@ -133,6 +134,13 @@ export default function Projects() {
             </CarouselContent>
             <CarouselIndicator />
           </Carousel>
+        </div>
+        <div className="mt-7 flex justify-center w-full">
+          <a href="/portfolio">
+            <Button className="text-[0.73rem] font-medium rounded-full bg-black text-white py-[21px] px-6">
+              LOOK AT ALL OF OUR PREVIOUS PROJECTS!
+            </Button>
+          </a>
         </div>
       </div>
     </section>

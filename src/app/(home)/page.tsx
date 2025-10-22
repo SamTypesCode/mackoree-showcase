@@ -36,7 +36,7 @@ export default function Home() {
         <Contact />
         <FAQ />
       </main>
-      <Footer /> {/* TODO */}
+      <Footer />
     </>
   );
 }
