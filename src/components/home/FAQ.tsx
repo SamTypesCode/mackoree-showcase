@@ -14,34 +14,35 @@ interface FAQType {
 
 const FAQs: FAQType[] = [
   {
-    question: "Getting Started",
+    question: "How long will my project take?",
     answer:
-      "Discover the fundamental concepts of Motion-Primitives. This section guides you through installation and provides an overview of integrating these components into your projects.",
+      "It depends on how complex your project is. Smaller animations can be done in a few days, while more detailed or story-based ones may take around 2-3 weeks.",
   },
   {
-    question: "Animation Properties",
+    question: "How much will it cost?",
     answer:
-      "Explore the range of animation properties available. Learn how to manipulate timing, easing, and delays to create smooth, dynamic animations.",
+      "The cost depends on your project’s style, length, and details. Once you share your idea with us, we’ll give you a clear and fair price before starting.",
   },
   {
-    question: "Advanced Usage",
+    question:
+      "Do you handle full creative work, script, animation, sound, etc.?",
     answer:
-      "Dive deeper into advanced techniques: chaining animations, creating complex sequences, and utilizing motion sensors for interactive animations.",
+      "Yes, we manage the entire process from start to finish, including script, modeling, animation, lighting, music, and final editing.",
   },
   {
-    question: "Community and Support",
+    question: "How can I start a project with you?",
     answer:
-      "Engage with the Motion-Primitives community to gain support. Participate in discussions, contribute to the project, and access shared resources.",
+      "You can start by submitting your email through our website. We’ll reach out to discuss your idea and begin once everything’s confirmed.",
   },
   {
-    question: "Troubleshooting",
+    question: "Do you support long-term projects or partnerships?",
     answer:
-      "Learn how to debug common issues and errors that arise when using Motion-Primitives. Tips include checking configuration, reviewing docs, and testing animations step by step.",
+      "Yes, we enjoy working with brands and agencies on long-term projects and ongoing content creation. We value consistent creative partnerships.",
   },
   {
-    question: "Future Updates",
+    question: "Can I get source files for future use?",
     answer:
-      "Stay informed about upcoming features and improvements. Understand the roadmap and how new functionalities will enhance the library.",
+      "Yes, if you need the source project files, we can share them with you for an additional charge once the project is complete.",
   },
 ];
 
