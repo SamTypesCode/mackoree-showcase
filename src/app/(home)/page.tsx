@@ -29,7 +29,7 @@ export default function Home() {
       )}
       <main>
         <Hero /> {/* TODO */}
-        <About /> {/* TODO */}
+        <About />
         <Partners />
         <Projects />
         <Testimonials />
