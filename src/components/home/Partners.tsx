@@ -9,35 +9,35 @@ interface PartnerType {
 const PartnersList: PartnerType[] = [
   {
     name: "Bombay Shaving",
-    image_path: "bombay-shaving-logo.webp",
+    image_path: "/logos/bombay-shaving-logo.webp",
   },
   {
     name: "KTM",
-    image_path: "ktm-logo.png",
+    image_path: "/logos/ktm-logo.png",
   },
   {
     name: "Loreal",
-    image_path: "loreal.svg",
+    image_path: "/logos/loreal.svg",
   },
   {
     name: "Mama Earth",
-    image_path: "mama-earth-logo.png",
+    image_path: "/logos/mama-earth-logo.png",
   },
   {
     name: "Nike",
-    image_path: "nike-logo.svg",
+    image_path: "/logos/nike-logo.svg",
   },
   {
     name: "Sugar Cosmetics",
-    image_path: "sugar-cosmetics-logo.png",
+    image_path: "/logos/sugar-cosmetics-logo.png",
   },
   {
     name: "Rolex",
-    image_path: "rolex-logo.png",
+    image_path: "/logos/rolex-logo.png",
   },
   {
     name: "Fpgg",
-    image_path: "fogg-logo.png",
+    image_path: "/logos/fogg-logo.png",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function Partners() {
               className="w-[140px] h-[140px] flex items-center justify-center"
             >
               <Image
-                src={`/${partner.image_path}`}
+                src={partner.image_path}
                 width={140}
                 height={140}
                 alt={`${partner.name} Logo`}

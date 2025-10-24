@@ -18,21 +18,21 @@ const ProjectsList: ProjectType[] = [
     client: "Rolex",
     description:
       "Close-up render of a modern, multi-dial Rolex. Tones and fine detailing emphasize its technical precision.",
-    imageUrl: "/rolex-render.jpg",
+    imageUrl: "/projects/Rolex/010.jpg",
     theme: "dark",
   },
   {
     client: "Nike",
     description:
       "Close-up render of a modern Nike sneaker, highlighting sleek curves and dynamic textures.",
-    imageUrl: "/nike-render.jpg",
+    imageUrl: "/projects/Nike/Nike Airforce-render-01.jpg",
     theme: "light",
   },
   {
     client: "Bombay Shaving Company",
     description:
       "Light-themed render of a sleek shaving razor in mid-air. Selective parts lift away to highlight its design.",
-    imageUrl: "/bombay-shaving-company-render.jpg",
+    imageUrl: "/projects/Bombay Shaving/Mackoree-shot1.jpg",
     theme: "light",
   },
 ];
@@ -135,9 +135,9 @@ export default function Projects() {
             <CarouselIndicator />
           </Carousel>
         </div>
-        <div className="mt-7 flex justify-center w-full">
+        <div className="mt-12 flex justify-center w-full">
           <a href="/portfolio">
-            <Button className="text-[0.73rem] font-medium rounded-full bg-black text-white py-[21px] px-6">
+            <Button className="max-md:text-xs text-sm font-medium rounded-full bg-black text-white py-[21px] px-6">
               LOOK AT ALL OF OUR PREVIOUS PROJECTS!
             </Button>
           </a>

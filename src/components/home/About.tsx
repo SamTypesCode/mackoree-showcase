@@ -21,12 +21,12 @@ export default function About() {
         <div className="mx-auto w-full max-w-screen-lg flex flex-col items-center">
           <ImageComparison className="w-full rounded-sm max-md:aspect-square aspect-[5/3] border border-zinc-200 dark:border-zinc-800 touch-none">
             <ImageComparisonImage
-              src="/bombay-shaving-company-render-1.jpg"
+              src="/projects/Bombay Shaving/Mackoree-frame-1-.jpg"
               alt="3D render after refinement"
               position="left"
             />
             <ImageComparisonImage
-              src="/bombay-shaving-company-grayscale.jpg"
+              src="/projects/Mackoree-frame-2.jpg"
               alt="3D render before refinement"
               position="right"
             />

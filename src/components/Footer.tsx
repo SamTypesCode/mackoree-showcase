@@ -31,9 +31,9 @@ export default function Footer() {
           <div className="max-w-sm max-md:mx-auto space-y-6">
             <div className="flex items-center gap-4 max-md:justify-center">
               <img
-                src="/mackoree-logo.svg"
+                src="/logos/mackoree-logo.svg"
                 alt="Mackoree Logo"
-                className="max-h-8"
+                className="max-md:max-h-8 max-h-6"
               />
             </div>
             <p className="text-base leading-relaxed max-md:text-center text-zinc-600">

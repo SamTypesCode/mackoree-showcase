@@ -15,18 +15,18 @@ interface TestimonialType {
 const TestimonialsList: TestimonialType[] = [
   {
     name: "Loreal",
-    avatarUrl: "loreal-logo-small.png",
+    avatarUrl: "/logos/loreal-logo-small.png",
     content:
       "Their precision and eye for detail brought our product's visuals to a truly global standard.",
   },
   {
     name: "Shantanu Deshpande",
-    avatarUrl: "/shantanu-deshpande.jpg",
+    avatarUrl: "/people/shantanu-deshpande.jpg",
     content: "Bold, elegant, and perfectly aligned with our grooming identity.",
   },
   {
     name: "Sumeet Narang",
-    avatarUrl: "/sumeet-narang.webp",
+    avatarUrl: "/people/sumeet-narang.webp",
     content:
       "High-performance visuals that captured the adrenaline and precision of our bikes.",
   },
