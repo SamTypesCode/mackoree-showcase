@@ -34,19 +34,19 @@ export default async function Portfolio() {
 
   return (
     <>
-      <aside className="w-full min-h-16 bg-[#f0f4fa] text-[0.72rem] font-medium z-50 flex justify-start items-center p-6 max-md:p-5 space-x-8">
-        <Link href="/#projects" className="p-4 bg-white rounded-lg shadow-sm">
-          <ArrowLeft size={20} />
+      <aside className="w-full min-h-16 text-[0.72rem] font-medium z-50 flex justify-start items-center p-6 max-md:p-5 space-x-8">
+        <Link href="/#projects">
+          <ArrowLeft size={24} />
         </Link>
-        <h1 className="text-4xl max-md:text-3xl font-medium font-serif">
+        <h1 className="text-3xl max-md:text-2xl font-medium font-serif">
           Our Portfolio
         </h1>
       </aside>
 
-      <main className="bg-[#f0f4fa]">
+      <main className="">
         <section id="projects" className="w-full pt-16 pb-24 max-md:py-16">
           <div className="max-w-[1440px] mx-auto px-12 max-md:px-5">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {Projects.map(
                 (project) =>
                   project.media.length > 0 &&

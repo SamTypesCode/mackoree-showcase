@@ -19,7 +19,7 @@ export default function About() {
           We want high quality results as much as you, take a look for yourself.
         </h2>
         <div className="mx-auto w-full max-w-screen-lg flex flex-col items-center">
-          <ImageComparison className="w-full rounded-sm max-md:aspect-square aspect-[5/3] border border-zinc-200 dark:border-zinc-800 touch-none">
+          <ImageComparison className="w-full rounded-md max-md:aspect-square aspect-[5/3] border border-zinc-200 dark:border-zinc-800 touch-none">
             <ImageComparisonImage
               src="/projects/Bombay Shaving/Mackoree-frame-1-.jpg"
               alt="3D render after refinement"

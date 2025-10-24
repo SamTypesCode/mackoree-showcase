@@ -24,7 +24,7 @@ const ProjectsList: ProjectType[] = [
   {
     client: "Nike",
     description:
-      "Close-up render of a modern Nike sneaker, highlighting sleek curves and dynamic textures.",
+      "Close-up render image of a modern Nike sneaker, highlighting it's sleek curves and dynamic textures.",
     imageUrl: "/projects/Nike/Nike Airforce-render-01.jpg",
     theme: "light",
   },
