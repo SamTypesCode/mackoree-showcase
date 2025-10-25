@@ -26,7 +26,7 @@ export default function Contact() {
 
       setSubmitted(true);
       setEmail("");
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error(err);
       setError(true);
       setSubmitted(true);
