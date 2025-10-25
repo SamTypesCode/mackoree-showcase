@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-zinc-50 mt-24 pt-16 pb-12 text-zinc-700">
+    <footer
+      id="footer"
+      className="w-full bg-zinc-50 mt-24 pt-16 pb-12 text-zinc-700"
+    >
       <div className="max-w-screen-lg mx-auto px-12 max-md:px-5">
         <div className="flex flex-wrap justify-between items-center pt-8 gap-4 text-base text-zinc-600 max-md:flex-col max-md:text-center">
           <p>© 2025 Mackoree Animation Studio. All Rights Reserved.</p>
