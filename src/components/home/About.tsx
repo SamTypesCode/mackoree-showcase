@@ -13,13 +13,14 @@ export default function About() {
     >
       <div className="relative mx-auto max-w-[1440px] px-12 max-md:px-5">
         <h2 className="mx-auto mb-6 max-md:mb-4 text-[54px] max-md:text-3xl text-center font-medium md:leading-[60px]">
-          Only High Quality Results
+          Only <span className="font-serif font-thin italic">High Quality</span>{" "}
+          Results
         </h2>
         <h2 className="mx-auto mb-12 max-md:mb-9 max-w-[550px] text-center text-xl md:text-2xl font-medium leading-tight tracking-tight">
           We want high quality results as much as you, take a look for yourself.
         </h2>
         <div className="mx-auto w-full max-w-screen-lg flex flex-col items-center">
-          <ImageComparison className="w-full rounded-md max-md:aspect-square aspect-[5/3] border border-zinc-200 dark:border-zinc-800 touch-none">
+          <ImageComparison className="w-full rounded max-md:aspect-square aspect-[5/3] border border-zinc-200 dark:border-zinc-800 touch-none">
             <ImageComparisonImage
               src="/projects/Bombay Shaving/Mackoree-frame-1-.jpg"
               alt="3D render after refinement"
